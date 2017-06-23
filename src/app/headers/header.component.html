@@ -1,9 +1,7 @@
 <header>
     <div class="container">
 
-        <div class="row">
-            <top-bar></top-bar>
-        </div><!--top-bar-->
+        <top-bar></top-bar>
 
         <div class="border"></div>
         <div class="border"></div>
@@ -19,45 +17,8 @@
 
                 <div class="col-md-4 col-md-push-4 col-sm-6 col-xs-12">
                     <div class="row">
-                        <div class="total-items col-md-5 col-sm-5 col-xs-5">
-                            <span class="total">0</span> <span class="text">items</span>
-                        </div>
-
-                        <div class="cart-list col-md-7 col-sm-7 col-xs-7">
-                            <div class="cart-subtotal">
-                                $<span>0.00</span>
-                            </div>
-                            <div class="shopping-cart">
-                                <a class="cart-control">View cart</a>
-                                <div class="cart-wrapper">
-                                    <div class="widget_shopping_cart_content">
-                                        <ul class="cart_list product_list_widget ">
-                                            <li class="mini_cart_item clearfix">
-                                                <a href="#"><img src="/assets/images/cart-item-1.jpg" width="100" height="80" ></a>
-                                                <a href="#" class="name">Woman glasses</a>
-                                                <a href="#" class="remove remove_item">remove</a>
-                                                <span class="quantity">1 × <span class="price-amount">$39.00</span>
-                                                </span>
-                                            </li>
-                                        </ul>
-                                        <!-- end product list -->
-                                        <p class="total">SUBTOTAL <span class="price-amount">$39.00</span>
-                                        </p>
-                                        <p class="buttons">
-                                            <a href="#" class="button wc-forward">View Cart</a>
-                                            <a href="#" class="button checkout wc-forward">Checkout</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="searchbox-container col-md-12 col-sm-12 col-xs-12">
-                            <form action="#" method="get" class="search_mini">
-                                <input type="text" name="s" id="search_mini" value="" placeholder="search for products">
-                                <input type="submit" value="" id="mini-search-submit">
-                            </form>
-                        </div><!--searchbox-->
+                        <cart></cart>
+                        <search></search>
                     </div>
                 </div>
 
@@ -81,15 +42,7 @@
                             </div>
                         </div>
 
-                        <div class="widget last-widget">
-                            <p class="textwidget">LOVE IS SHARING</p>
-                            <ul class="social-list">
-                                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
+                        <social></social>
                     </div>
                 </div>
 
