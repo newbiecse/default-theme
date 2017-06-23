@@ -21,9 +21,9 @@
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
         "../node_modules/bootstrap/dist/css/bootstrap-theme.min.css",
-        "css/style.css",
-        "css/style-responsive.css",
-        "css/magnifier.css"
+        "css/styles.scss",
+        "css/styles-responsive.scss",
+        "css/magnifier.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -55,7 +55,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }
