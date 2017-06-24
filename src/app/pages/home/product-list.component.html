@@ -4,9 +4,8 @@
 
         <div class="row">
             <div class="products-container clearfix">
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <product *ngFor="let i of [1, 2, 3, 4]"
-                        [product]="i">
+                <div class="col-md-3 col-sm-3 col-xs-12" *ngFor="let i of [1, 2, 3, 4]">
+                    <product [product]="i">
                     </product>
                 </div>
             </div>
