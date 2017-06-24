@@ -1,7 +1,7 @@
-<div class="product-container added" (click)="goToProductDetails()">
+<div class="product-container added">
 
     <div class="prod-img">
-        <a href="#">
+        <a [routerLink]="['/products', 1]">
             <img [src]="'assets/images/prod-' + product + '.jpg'">
         </a>
     </div>

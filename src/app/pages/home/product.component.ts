@@ -10,8 +10,4 @@ export class ProductComponent {
   constructor(private router: Router){}
 
   @Input() product: number;
-
-  goToProductDetails() {
-    this.router.navigate(['/products', 1]);
-  }
 }
