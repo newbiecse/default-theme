@@ -6,6 +6,9 @@ import { ROUTES } from './app.routes';
 import { AppComponent } from './app.component';
 import { BannerComponent } from './pages/home/banner.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { BlogPostComponent } from './pages/blog/blog-post.component';
+import { RecentPostsComponent } from './pages/blog/recent-posts.component';
+import { ThumbnailPostComponent } from './pages/blog/thumbnail-post.component';
 import { CartComponent } from './headers/cart.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './footers/footer.component';
@@ -31,6 +34,9 @@ import { HomeComponent } from './pages/home/home.component';
     AppComponent,
     BannerComponent,
     BlogComponent,
+    BlogPostComponent,
+    RecentPostsComponent,
+    ThumbnailPostComponent,
     CartComponent,
     ContactComponent,
     FooterComponent,
