@@ -20,8 +20,6 @@ export const ROUTES : Routes = [
   },
   {
     path: 'products/:id',
-    // regex: '[a-z]+.[0-9]+',
-    // serializer: (params) => `{params.a}.params.b}`,
     // pathMatch: 'full',
     // canActivate: [AuthGuard],
     component: ProductDetailsComponent
@@ -31,7 +29,7 @@ export const ROUTES : Routes = [
     pathMatch: 'full',
     // canActivate: [AuthGuard],
     component: ContactComponent
-  },
+  }, 
   {
     path: 'blog',
     pathMatch: 'full',
