@@ -1,15 +1,15 @@
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home.component';
+import { HomeComponent } from './pages/home/home.component';
 
 export const ROUTES: Routes = [
   {
     path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
+    pathMatch: 'full',
+    component: HomeComponent
   },
   {
-    path: 'home',
+    path: 'products',
     // canActivate: [AuthGuard],
     component: HomeComponent
   },
