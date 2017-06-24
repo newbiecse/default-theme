@@ -1,0 +1,14 @@
+<div class="section-product">
+    <div class="container">
+        <menu-product></menu-product>
+
+        <div class="row">
+            <div class="products-container clearfix">
+                <product *ngFor="let i of [1, 2, 3, 4]"
+                    [product]="i">
+                </product>
+            </div>
+        </div>
+
+    </div>
+</div>

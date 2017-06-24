@@ -9,9 +9,12 @@ import { CartComponent } from './headers/cart.component';
 import { FooterComponent } from './footers/footer.component';
 import { HeaderComponent } from './headers/header.component';
 import { LogoComponent } from './headers/logo.component';
+import { MenuProductComponent } from './pages/home/menu-product.component';
 import { NavBarComponent } from './navbar/nav-bar.component';
 import { NewArticleComponent } from './pages/home/new-article.component';
 import { NewArticleListComponent } from './pages/home/new-article-list.component';
+import { ProductComponent } from './pages/home/product.component';
+import { ProductListComponent } from './pages/home/product-list.component';
 import { SearchComponent } from './headers/search.component';
 import { SocialComponent } from './headers/social.component';
 import { TopBarComponent } from './headers/top-bar.component';
@@ -25,10 +28,13 @@ import { HomeComponent } from './pages/home/home.component';
     FooterComponent,
     HeaderComponent,
     HomeComponent,
+    MenuProductComponent,
     LogoComponent,
     NavBarComponent,
     NewArticleComponent,
     NewArticleListComponent,
+    ProductComponent,
+    ProductListComponent,
     SearchComponent,
     SocialComponent,
     TopBarComponent
