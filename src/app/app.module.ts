@@ -11,6 +11,7 @@ import { RecentPostsComponent } from './pages/blog/recent-posts.component';
 import { ThumbnailPostComponent } from './pages/blog/thumbnail-post.component';
 import { CartComponent } from './headers/cart.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ContactMapComponent } from './pages/contact/contact-map.component';
 import { FooterComponent } from './footers/footer.component';
 import { HeaderComponent } from './headers/header.component';
 import { LogoComponent } from './headers/logo.component';
@@ -39,6 +40,7 @@ import { HomeComponent } from './pages/home/home.component';
     ThumbnailPostComponent,
     CartComponent,
     ContactComponent,
+    ContactMapComponent,
     FooterComponent,
     HeaderComponent,
     HomeComponent,
