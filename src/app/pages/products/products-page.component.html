@@ -1,3 +1,51 @@
+<div class="banner prod-list">
+    <div class="container">
+        <div class="banner-container">
+            <img [src]="'assets/images/slider-1.jpg'">
+        </div>
+    </div>
+</div>
+
 <div class="body">
-    <h1>Products page</h1>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-9 col-md-push-3 col-sm-9 col-sm-push-3 col-xs-12">
+
+                <div class="top-prod-list clearfix">
+                    <h1 class="product-title page-title">Shop</h1>
+
+                    <p class="list-or-grid">
+                        View as 
+                        <a class="grid-view active" href="#" title="Switch to grid view">grid</a>
+                        <a class="list-view" href="#" title="Switch to list view">list</a>
+                    </p>
+
+                    <form action="#" class="list-order">
+                        <select name="orderby" class="orderby selectBox" style="display: none;">
+                            <option value="popularity">Sort by popularity</option>
+                            <option value="rating">Sort by average rating</option>
+                            <option value="date">Sort by newness</option>
+                            <option value="price">Sort by price: low to high</option>
+                            <option value="price-desc">Sort by price: high to low</option>
+                        </select>
+                    </form>
+
+                    <div class="breadcrumbs">
+                        <nav class="page-breadcrumb">
+                            <a routerLink="">Home</a>&nbsp;/&nbsp;Shop
+                        </nav>
+                    </div>
+
+                </div>
+
+                <product-list-full></product-list-full>
+
+            </div>
+
+            <product-filter>
+            </product-filter>
+
+        </div>
+    </div>
 </div>
