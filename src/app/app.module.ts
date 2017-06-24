@@ -22,6 +22,7 @@ import { NewArticleListComponent } from './pages/home/new-article-list.component
 import { ProductComponent } from './pages/home/product.component';
 import { ProductListComponent } from './pages/home/product-list.component';
 import { ProductsPageComponent } from './pages/products/products-page.component';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { ProductFilterComponent } from './pages/products/product-filter.component';
 import { ProductListFullComponent } from './pages/products/product-list-full.component';
 import { SearchComponent } from './headers/search.component';
@@ -52,6 +53,7 @@ import { HomeComponent } from './pages/home/home.component';
     ProductComponent,
     ProductListComponent,
     ProductsPageComponent,
+    ProductDetailsComponent,
     ProductFilterComponent,
     ProductListFullComponent,
     SearchComponent,

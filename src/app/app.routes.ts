@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductsPageComponent } from './pages/products/products-page.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 
 export const ROUTES : Routes = [
   {
@@ -16,6 +17,12 @@ export const ROUTES : Routes = [
     pathMatch: 'full',
     // canActivate: [AuthGuard],
     component: ProductsPageComponent
+  },
+  {
+    path: 'products/:id',
+    // pathMatch: 'full',
+    // canActivate: [AuthGuard],
+    component: ProductDetailsComponent
   },
   {
     path: 'contact',
